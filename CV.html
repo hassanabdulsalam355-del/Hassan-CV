@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Curriculum Vitae - Hassan Abdulsalam</title>
+
+    <!-- Embedded CSS -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #e9eef3;
+        color: #222;
+        line-height: 1.7;
+      }
+
+      .cv-container {
+        width: 80%;
+        max-width: 950px;
+        margin: 40px auto;
+        background-color: white;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      }
+
+      .cv-container > h2 {
+        text-align: center;
+        color: #123b63;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 35px;
+        text-decoration: underline;
+        margin-bottom: 25px;
+      }
+
+      header {
+        text-align: center;
+        background-color: #123b63;
+        color: white;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+      }
+
+      header h3 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 30px;
+        margin-bottom: 12px;
+      }
+
+      header p {
+        margin: 5px 0;
+      }
+
+      header a {
+        color: white;
+        text-decoration: none;
+      }
+
+      header a:hover {
+        color: #ffd166;
+        text-decoration: underline;
+      }
+
+      section {
+        margin-bottom: 30px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #d5d5d5;
+      }
+
+      section h1 {
+        font-family: Georgia, "Times New Roman", serif;
+        color: #123b63;
+        font-size: 25px;
+        text-transform: uppercase;
+        border-left: 6px solid #123b63;
+        padding-left: 12px;
+        margin-bottom: 15px;
+      }
+
+      section p {
+        font-size: 16px;
+      }
+
+      .education,
+      .experience,
+      .reference {
+        background-color: #f4f7fa;
+        padding: 20px;
+        border-radius: 8px;
+      }
+
+      .education h3,
+      .experience h3,
+      .reference h3,
+      .project h3 {
+        color: #123b63;
+        font-size: 19px;
+        margin-bottom: 5px;
+      }
+
+      ul {
+        margin-left: 25px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      .skills-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      .skills-list li {
+        background-color: #f4f7fa;
+        padding: 10px 15px;
+        border-radius: 6px;
+        list-style-position: inside;
+        transition: 0.3s;
+      }
+
+      .skills-list li:hover {
+        background-color: #123b63;
+        color: white;
+        transform: translateX(5px);
+      }
+
+      .project {
+        background-color: #f4f7fa;
+        padding: 18px;
+        margin-bottom: 12px;
+        border-left: 4px solid #123b63;
+        border-radius: 6px;
+        transition: 0.3s;
+      }
+
+      .project:hover {
+        transform: translateX(6px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 25px;
+        padding-top: 20px;
+        color: #666;
+        font-size: 14px;
+      }
+
+      @media (max-width: 700px) {
+        .cv-container {
+          width: 95%;
+          padding: 20px;
+          margin: 20px auto;
+        }
+
+        .cv-container > h2 {
+          font-size: 28px;
+        }
+
+        header h3 {
+          font-size: 24px;
+        }
+
+        .skills-list {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (max-width: 700px) {
+        .cv-container {
+          width: 95%;
+          padding: 20px;
+          margin: 20px auto;
+        }
+
+        .cv-container > h2 {
+          font-size: 28px;
+        }
+
+        header h3 {
+          font-size: 24px;
+        }
+
+        .skills-list {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="cv-container">
+      <h2>Curriculum Vitae</h2>
+
+      <header>
+        <h3>Hassan Abdulsalam</h3>
+
+        <p>
+          Email:
+          <a href="mailto:hassanabdulsalam355@gmail.com">
+            hassanabdulsalam355@gmail.com
+          </a>
+        </p>
+
+        <p>Contact: 07077033100</p>
+
+        <p>Address: Abuja, Nigeria</p>
+      </header>
+
+      <!-- Personal Profile -->
+      <section>
+        <h1>My Personal Profile</h1>
+
+        <p>
+          I am a secondary school graduate with a Secondary School Certificate
+          (SSCE). I am currently developing my skills in web development and
+          have progressed to an intermediate level. I am passionate about
+          technology, continuous learning, and building practical skills for my
+          future career.
+        </p>
+      </section>
+
+      <!-- Education -->
+      <section>
+        <h1>Education</h1>
+
+        <div class="education">
+          <h3>Sheikh Abubakar Gumi Academy, Abuja, Nigeria</h3>
+
+          <p><strong>Creche – Senior Secondary School</strong> | 2013–2026</p>
+
+          <ul>
+            <li>
+              Completed primary, junior secondary, and senior secondary
+              education at the same institution.
+            </li>
+
+            <li>Obtained my Senior Secondary School Certificate (SSCE).</li>
+
+            <li>
+              Completed Common Entrance, Junior WAEC, WAEC, NECO, and JAMB
+              examinations through the institution.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section>
+        <h1>Skills</h1>
+
+        <ul class="skills-list">
+          <li>Web Development (HTML & CSS)</li>
+
+          <li>Computer Literacy</li>
+
+          <li>Problem-Solving</li>
+
+          <li>Communication</li>
+
+          <li>Teamwork</li>
+
+          <li>Football</li>
+        </ul>
+      </section>
+
+      <!-- Training & Experience -->
+      <section>
+        <h1>Training & Experience</h1>
+
+        <div class="experience">
+          <h3>Web Development Trainee — Dosbell Training</h3>
+
+          <p>
+            <strong>September 2026 – Present</strong>
+          </p>
+
+          <ul>
+            <li>
+              Currently developing intermediate-level skills in web development.
+            </li>
+
+            <li>
+              Gained practical experience with HTML, CSS, and Visual Studio
+              Code.
+            </li>
+
+            <li>Created and styled web pages using HTML and CSS.</li>
+
+            <li>
+              Developing practical skills through hands-on projects and
+              training.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section>
+        <h1>Projects</h1>
+
+        <div class="project">
+          <h3>Personal CV Web Page</h3>
+
+          <p>Created a personal CV/profile web page using HTML and CSS.</p>
+        </div>
+
+        <div class="project">
+          <h3>Dosbell Demo Web Page</h3>
+
+          <p>
+            Created a web page showcasing IT services, with styled service
+            cards, hover effects, and a link button.
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Harab Web Page</h3>
+
+          <p>Designed a basic company web page concept using HTML and CSS.</p>
+        </div>
+      </section>
+
+      <!-- Achievements & Certifications -->
+      <section>
+        <h1>Achievements & Certifications</h1>
+
+        <ul>
+          <li>
+            <strong>
+              West African Senior School Certificate Examination (WASSCE/WAEC)
+            </strong>
+            — Completed, 2026
+          </li>
+
+          <li>
+            <strong>
+              National Examination Council (NECO) Senior School Certificate
+            </strong>
+            — Completed, 2026
+          </li>
+
+          <li>
+            <strong>Junior WAEC Certificate</strong>
+            — Completed
+          </li>
+
+          <li>
+            <strong>Academic Excellence Awards</strong>
+            — Recognized for outstanding performance in several subjects and
+            overall science performance.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Reference -->
+      <section>
+        <h1>Reference</h1>
+
+        <div class="reference">
+          <h3>Mr. Andy Isah</h3>
+
+          <p>CEO, Dosbel Tech Ltd.</p>
+
+          <p><strong>Relationship:</strong> Web Instructor</p>
+
+          <p><strong>Contact:</strong> info@dosbel.com</p>
+
+          <p>+2348035313858</p>
+        </div>
+      </section>
+
+      <footer>
+        <p>© 2026 Hassan Abdulsalam | Curriculum Vitae</p>
+      </footer>
+    </div>
+  </body>
+</html>
